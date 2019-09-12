@@ -46,6 +46,7 @@
     background: orangered;
     border: none;
     color: white;
+    outline: none;
     padding: 15px 24px;
     font-size: 1.4rem;
     box-shadow: -6px 6px 0 hsl(16, 100%,  30%);
@@ -157,4 +158,209 @@
                     0 5px 0 hsl(54, 100%, 14%),
                     0 6px 0 hsl(54, 100%, 12%),
                     0 7px 0 hsl(54, 100%, 10%);
+    }
+
+/*
+    geradient
+*/
+
+.gradient-button-1 {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    background: transparent;
+    border: solid 10px transparent;
+    border-image: linear-gradient(to top right, orangered, yellow );
+    border-image-slice: 1;
+    color: orangered;
+    transition: all 0.3s ease-in-out;
+}
+
+    .gradient-button-1:hover {
+        background-image: linear-gradient(to top right, orangered, yellow);
+        color: white;
+    }
+
+.gradient-button-2 {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    background: white;
+    border: solid 4px transparent;
+    border-image: linear-gradient(to right, orangered, transparent );
+    border-image-slice: 1;
+    color: orangered;
+    transition: all 0.3s ease-in-out;
+}
+
+    .gradient-button-2:hover {
+        background-image: linear-gradient(to right, orangered, transparent);
+        color: white;
+        border-right-style: none;
+    }
+
+/*
+    animated
+*/
+
+.animated-button-1 {
+    position: relative;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1.4rem;
+    background-color: #00b3b4;
+    background-size: 40px 40px;
+    background-image: url(pattern.png);
+    border: solid 1px #555;
+    color: white;
+    transition: all 0.3s ease;
+}
+    .animated-button-1:hover {
+        animation: loading-button-animation 2s linear infinite;
+    }
+
+    @keyframes loading-button-animation {
+        from {
+            background-position: 0 0;
+        }
+        to {
+            background-position: 40px 0;
+        }
+    }
+
+.animated-button-2 {
+    position: relative;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1.4rem;
+    background-color: #00b3b4;
+    background-size: 40px 40px;
+    border: solid 1px #555;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+    .animated-button-2::after {
+        position: absolute;
+        top: 27%;
+        right: 0.6em;
+        content: "♥";
+        transition: all ease 0.3s;
+        opacity: 0;
+    }
+
+    .animated-button-2:hover {
+        padding: 20px 60px 20px 20px;
+    }
+
+    .animated-button-2:hover::after {
+        right: 1.2em;
+        opacity: 1;
+    }
+
+/*
+    switch
+*/
+
+.toggle-1 {
+    font-family: Helvetica, Arial, sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px 0 0;
+}
+
+    .toggle-1__input {
+        display: none;
+    }
+
+    .toggle-1__button {
+        position: relative;
+        display: inline-block;
+        font-size: 1rem;
+        line-height: 20px;
+        text-transform: uppercase;
+        background-color: #f2395a;
+        border: solid 1px #f2395a;
+        color: white;
+        width: 80px;
+        height: 30px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    .toggle-1__button::before {
+        position: absolute;
+        top: 5px;
+        left: 38px;
+        content: "off";
+        display: inline-block;
+        padding: 0 3px;
+        background: white;
+        color: #f2395a;
+        transition: all 0.3s ease;
+    }
+
+    .toggle-1__input:checked + .toggle-1__button {
+        background-color: #00b3b4;
+        border: solid 1px #00b3b4;
+    }
+
+    .toggle-1__input:checked + .toggle-1__button:before {
+        left: 5px;
+        content: "on";
+        color: #00b3b4;
+    }
+
+.toggle-2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px 0 0;
+}
+
+    .toggle-2__input {
+        display: none;
+    }
+
+    .toggle-2__button {
+        position: relative;
+        display: inline-block;
+        line-height: 20px;
+        text-transform: uppercase;
+        background: white;
+        color: #aaa;
+        border: solid 1px #ccc;
+        padding: 5px 10px 5px 30px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    .toggle-2__button::before {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background: #ccc;
+        content: "";
+        transition: all 0.3s ease;
+        border-radius: 100%;
+    }
+
+    .toggle-2__input:checked + .toggle-2__button {
+        background-color: #00b3b4;
+        border-color: #00b3b4;
+        color: white;
+    }
+
+    .toggle-2__input:checked + .toggle-2__button::before {
+        background-color: white;
     }
