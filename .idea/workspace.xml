@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="597936d0-bc7d-4b37-aeb7-05450b868af0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day 3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 3/sandbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_theme-styles/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_theme-styles/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 4/sandbox.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_theme-styles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day 4" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -42,12 +40,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\21ng\kowalskinG\JavaScript\30-days-of-css\_theme-styles" />
-      <recent name="D:\21ng\kowalskinG\JavaScript\30-days-of-css\Day 3" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Day 1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\21ng\kowalskinG\JavaScript\30-days-of-css\Day 4" />
+      <recent name="D:\21ng\kowalskinG\JavaScript\30-days-of-css\_theme-styles" />
+      <recent name="D:\21ng\kowalskinG\JavaScript\30-days-of-css\Day 3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -62,8 +61,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/30-days-of-css/Day 3/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/30-days-of-css/Day 4/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/30-days-of-css/index.html" useBuiltInWebServerPort="true">
@@ -71,6 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
@@ -89,7 +92,8 @@
       <workItem from="1568206318903" duration="4399000" />
       <workItem from="1568287338505" duration="5712000" />
       <workItem from="1568381351928" duration="1249000" />
-      <workItem from="1570617619385" duration="1718000" />
+      <workItem from="1570617619385" duration="2321000" />
+      <workItem from="1570700675886" duration="1803000" />
     </task>
     <servers />
   </component>
